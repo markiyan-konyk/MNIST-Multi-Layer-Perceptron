@@ -1,4 +1,9 @@
-# MNIST-Multi-Layer-Perceptron
+# MNIST-CNN
 
-This program will import the MNIST dataset, and then train a double layer MLP model to recognize digits written by hand, test and return the accuracy (usually between 96% and 97.5%) in the 28x28 MNIST format.
-The images of the digits will appear randomly and both the prediction and real label will be showed, to go through the photos press enter in the terminal, and to exit the program type "end".
+This program uses a the MNIST dataset to train a simple CNN of couple layers to recognize digits that you show through the webcam. Pytorch and OpenCV were used for this.
+After training the model tests itself providing the accuracy.
+The webcam will turn on and two windows will appear, what the webcam captures with a green square in which you have to centre the digits you wrote; and the other window is the b/w image fed to the cnn (before compression)
+
+### To use
+After training and webcam is on press 'q' to take a 28x28 screenshot of what the cnn sees, and press 'e' to exit the program.
+
